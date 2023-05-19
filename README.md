@@ -10,7 +10,7 @@ First off, install opencv with pip
 pip install cv2
 ```
 
-Now, you can run the scritp with
+Now, you can run the script with
 
 ```bash
 python capture.py
