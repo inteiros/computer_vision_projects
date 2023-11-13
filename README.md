@@ -1,8 +1,8 @@
-# Webcam Capture Motion Tracker
+# Webcam Capture Tracker and Face detection
 
-Simple and quick script I made in about 10 minutes
+Quick motion tracker and face detection scipts using opencv and haarcascade_frontalface_default classifier
 
-## Running the script
+## Running the scripts
 
 First off, install opencv with pip
 
@@ -13,7 +13,15 @@ pip install cv2
 Now, you can run the script with
 
 ```bash
-python capture.py
+python facedetection.py
+```
+
+and the script will detect faces with the camera
+
+or
+
+```bash
+python tracker.py
 ```
 
 The script will render a frozen frame so you can select the object with your mouse and press enter or space to proceed (or press c to cancel and select the object again). Quit the application by pressing Q on your keyboard.
